@@ -1,0 +1,182 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-image: url("forlogin4.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #59c9fc;
+    transition: 1s;
+}
+
+.login-div{
+    margin: 20px auto;
+    width: 400px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 50px; 
+}
+
+.logo{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    margin:-20px auto; 
+    margin-bottom: 40px;
+}
+
+.logo img{
+    width:100%;
+    margin:0 auto; 
+   }
+.logo img:hover{
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -moz-transform: rotateX(5deg);
+    -webkit-transform: rotateX(5deg);
+    transform: rotateX(5deg);
+    -moz-transform-origin: 50% 0;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    box-shadow: 0 20px 20px -5px gray;
+}
+
+
+.title, .subtitle
+{
+    text-align:center;
+    color: #505050;
+}
+
+
+.title{
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.subtitle{
+    font-size: 18px;
+}
+.form{
+    width: 100%;
+    margin-top: 30px;
+}
+.form input{
+    font-size: 18px; 
+    padding: 10px 12px;
+    border:none;
+    outline: none;
+    background: none;
+}
+
+
+.form-control {
+    position: relative;
+    display: block;
+    border-radius: 30px;
+    border:1px solid rgba(0,0,0,0.2);
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.form-control input:focus{
+    outline: 0;
+    border-color: pink;
+}
+.form-control i {
+   position: absolute;
+   left: 91%;
+   top: 20px;
+   visibility: hidden;
+}
+/*success*/
+.form-control.success input{
+    border-color: #2ecc71;
+}
+.form-control.success i.fa-check-circle{
+    color: #2ecc71;
+    visibility: visible;
+}
+
+/*errors*/
+.form-control.error input{
+    border-color: #e74c3c;
+}
+
+.form-control.error i.fa-exclamation-circle{
+    color: #e74c3c;
+    visibility: visible;
+}
+.form-control small{
+    color:#e74c3c;
+    left:40px;
+    top: 55px;
+    position: absolute;
+    margin-bottom: 30px;
+    visibility: hidden;
+}
+
+.form-control.error small{
+    visibility: visible;
+}
+.form svg{
+
+    height:25px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px, 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    padding: 2px 2px;
+    background-color:#59c9fc;
+    border-radius: 30px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 1s;
+}
+.btn:hover{
+    background-color: #003366;
+}
+.sign-up{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.sign-up a{
+    color: #59c9fc;
+}
+.sign-up a:hover{
+    color:  #003366;
+     -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -moz-transform: rotateX(20deg);
+    -webkit-transform: rotateX(20deg);
+    transform: rotateX(20deg);
+    -moz-transform-origin: 50% 0;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    box-shadow: 0 20px 20px -5px gray;
+}
+.forgot-password a{
+    text-decoration: none;
+    color: #505050;
+}

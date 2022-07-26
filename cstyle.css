@@ -1,0 +1,65 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+body{
+	background-image: url("buybg.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-div{
+    margin: 20px auto;
+    width: 450px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 50px; 
+}
+.logo{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    margin:-20px auto; 
+    margin-bottom: 40px;
+}
+
+.logo img{
+    width:100%;
+    margin:0 auto; 
+   }
+
+ .logo img:hover{
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -moz-transform: rotateX(5deg);
+    -webkit-transform: rotateX(5deg);
+    transform: rotateX(5deg);
+    -moz-transform-origin: 50% 0;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    box-shadow: 0 20px 20px -5px gray;
+}
+
+.title, .subtitle, .title2
+{
+    text-align:center;
+    color: #505050;
+   width: 450px;
+}
+
+
+.title{
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.subtitle{
+    font-size: 18px;
+}
+.title2 {
+    font-weight: 100px;
+    font-size: 18px;
+}
+.title2 p{
+    font-weight: 100px;
+    font-size: 18px;
+}
